@@ -1,1 +1,1 @@
-![POO2,0](https://user-images.githubusercontent.com/123508013/236587755-d75c8d66-29fd-4ceb-a08d-acb95813a4ac.png)
+![POO2,0](https://user-images.githubusercontent.com/123508013/236596512-f7665a30-1091-42ef-96a7-fe0f0bfff261.png)
