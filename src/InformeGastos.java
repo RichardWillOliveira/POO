@@ -18,7 +18,7 @@ public class InformeGastos {
 
     public PrintStream getRelatorio(int i){
         return (
-                System.out.printf(this.nome[i], this.tipo[i], this.data[i], this.valor[i], this.pagamento[i])
+                System.out.printf("\n%30s%15s%15s%15.2f \n",this.nome[i], this.tipo[i], this.data[i], this.valor[i], this.pagamento[i])
         );
     }
 }
