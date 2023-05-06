@@ -2,7 +2,7 @@ import java.io.PrintStream;
 public class Total {
     private double gastos;
     private double ganhos;
-    private double totalgg;
+    private double saldo;
 
     public void setGastos(double gastos){
         this.gastos += gastos;
@@ -11,12 +11,12 @@ public class Total {
         this.ganhos += ganhos;
     }
 
-    public void setTotalgg(){
-        this.totalgg = (this.ganhos - this.gastos);
+    public void setsaldo(){
+        this.saldo = (this.ganhos - this.gastos);
     }
-    public PrintStream getTotalgg(){
+    public PrintStream getsaldo(){
         return (
-                System.out.printf("Total Gastos", this.gastos, "Total Ganhos", this.ganhos, "Total", this.totalgg)
+                System.out.printf("\n\n\n\n%30s:%15.2f-\n%30s:%15.2f+\n%30s:%15.2f","Total Gastos", this.gastos, "Total Ganhos", this.ganhos, "Total", this.saldo)
 
         );
     }
